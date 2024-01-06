@@ -14,8 +14,8 @@ abstract class Person {
 // Перечисление ролей
 enum TeamRole { Driver, Manager }
 
-// Класс член команды
-abstract class TeamMember {
+// Интерфейс "Член команды"
+abstract interface class TeamMember {
   TeamRole get role;
 }
 
